@@ -8,6 +8,10 @@
 	padding: unset;
 }
 
+#right {
+	float: right;
+}
+
 body {
 	margin: unset;
 	padding: unset;
