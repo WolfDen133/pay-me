@@ -11,7 +11,7 @@
 body {
 	margin: unset;
 	padding: unset;
-	background: url("/assets/background.png") no-repeat #001a0233;
+	background: url("background.png") no-repeat #001a0233;
 }
 
 .content-wrapper {
