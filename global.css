@@ -21,44 +21,6 @@ body {
 	overflow: hidden;
 }
 
-.nav-bar {
-	width: 100%;
-	height: 46px;
-	background: #4ca63a;
-}
-
-ul.nav-container {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-
-li.nav-link {
-	float: left;
-}
-
-#right {
-	float: right;
-}
-
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-family: Arial, sans-serif;
-	font-weight: 500;
-	font-style: normal;
-	transition: all 0.3s ease-in-out;
-	height: inherit;
-}
-
-li a:hover {
-	background-color: #00000033;
-}
-
 footer {
 	position: fixed;
 	bottom: 0;
@@ -68,7 +30,6 @@ footer {
 }
 
 .logo {
-
 	position: absolute;
 	padding: 70px 20px;
 }
@@ -77,26 +38,7 @@ footer {
 	font-family: 'Heebo', sans-serif;
 	font-size: 60px;
 	font-weight: 500;
-	color: white;
 	animation: fadein 1s;
-}
-
-.content-box {
-	transform: skewY(-3deg);
-	animation: slideup;
-	animation-duration: 1s;
-	margin-top: 200px;
-	padding: 5px;
-	background-color: #00000086;
-	border: unset;
-	border-top: 10px outset #4ca63a;
-}
-
-p {
-	margin-top: 20px;
-	font-family: 'Inconsolata', monospace;
-	font-size: 30px;
-	color: white;
 }
 
 h1 {
@@ -112,75 +54,6 @@ footer p {
 	font-style: normal;
 	padding: 4px 4px;
 	margin: unset !important;
-}
-
-.content h1 {
-	font-family: 'DM Sans', sans-serif;
-	font-size: 40px;
-}
-
-.nav-box h1 {
-	font-family: 'DM Sans', sans-serif;
-	font-size: 40px;
-}
-
-.nav-box p {
-	font-size: 20px;
-}
-
-.nav-box a {
-	height: inherit;
-	text-decoration: none;
-}
-
-.content {
-	margin-top: 60px;
-	transform: skewY(3deg);
-	color: white;
-	padding: 15px;
-}
-
-.nav-boxes .nav-box {
-	padding: 10px 20px;
-	background-color: #00000033;
-	max-height: 400px;
-	min-height: 200px;
-	max-width: 300px;
-	opacity: 100%;
-	display: inline;
-	margin: 40px 40px;
-	border: 5px solid #00200888;
-	border-radius: 10px;
-	animation: slideup-after 1.5s none;
-}
-
-@keyframes slideup {
-	from {
-		display: inline;
-		margin-top: 500px;
-		
-	}
-
-	to {
-		margin-top: 200px;
-	}
-}
-
-@keyframes slideup-after {
-	from {
-		opacity: 0%;
-		margin-top: 80px;
-	}
-
-	50% {
-		opacity: 0%;
-		margin-top: 80px;
-	}
-
-	to {
-		margin-top: 40px;
-		opacity: 100%;
-	}
 }
 
 @keyframes fadein {
